@@ -1,0 +1,41 @@
+extends templates/base
+block vars
+    - var page = "home"
+block head 
+    title 安卓铃声
+block content
+    .container
+        .row.content-top
+            .col-md-12
+                img(src="images/phone-img.jpg").banner-img
+                img(src="images/phone-img-640.jpg").banner-img-640
+            .download-box.clearfix
+                img(src="images/logo-big.png").logo-big
+                a(href="#").andriod-download
+                    img(src="images/andriod-download.png")
+                img(src="images/wechat-code.png")
+    .content-btm.clearfix
+        .download-box-mobile
+            img(src="images/logo-big.png").logo-big
+            a(href="#").andriod-download
+                img(src="images/andriod-download.png")
+            img(src="images/wechat-code.png")
+        .app
+            h3 应用简介
+            ol 
+                li 官方推荐，装机必备，首款集成铃声设置，裁剪，录制的无广告安卓应用; 
+                li  致力于为手机用户提供最炫和最新的免费铃声资源，使您的手机永远与众不同;
+                li  紧跟流行前沿，每日更新精彩铃声榜单; 
+                li  多种铃声分类，海量资源随时随地搜索; 
+                li  一键试听下载，铃声管理设置简单易用;
+                li  软件本身完全免费，使用过程中产生的任何流量费用均由运营商收取;
+        .feature
+            ul.clearfix
+                li 
+                    img(src="images/phone1-img.png").img-responsive
+                li(style='margin-left:6.5%') 
+                    img(src="images/phone2-img.png").img-responsive
+                li(style='margin-left:6.5%')  
+                    img(src="images/phone3-img.png").img-responsive
+
+
